@@ -13,12 +13,9 @@ Analyzing the Impact of Climate Change on Global Temperature and Sea Level Rise
 
 ## Description
 
-<!-- Describe your data science project in max. 200 words. Consider writing about why and how you attempt it. -->
-XY is an important problem, because... This projects analyzes XY, using method A. The results can give insights into...
 
 ## Datasources
 
-<!-- Describe each datasources you plan to use in a section. Use the prefic "DatasourceX" where X is the id of the datasource. -->
 
 ### Datasource1: Global Temperature
 * Metadata URL:https://www.ncei.noaa.gov/
