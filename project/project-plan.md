@@ -4,45 +4,43 @@
 Analyzing the Impact of Climate Change on Global Temperature and Sea Level Rise
 
 ## Main Question
+How has global temperature changed over the past century, and what are the underlying trends?
+What is the relationship between global temperature rise and sea level rise?
+Which regions are most affected by sea level rise, and what are the implications for coastal communities?
+Can we predict future trends in global temperature and sea level rise using historical data?
 
-1.	Analyze global temperature trends over the past century.
-2.	Examine the correlation between global temperature rise and sea level rise.
-3.	Identify regions most affected by sea level rise.
-4.	Predict future trends in global temperature and sea level rise using historical data.
 
 
 ## Description
+  This project aims to analyze the impact of climate change on global temperature and sea level rise over time.This includes analyzing ancient statistics to understand traits and patterns in temperature and sea level measurements, figuring out correlations between climate variables, and predicting future developments primarily based on ancient statistics.The project also explores the potential implications of these changes on the environment and human populations
 
 
 ## Datasources
 
 
 ### Datasource1: Global Temperature
-* Metadata URL:https://www.ncei.noaa.gov/
-* Data URL: https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series
+* Metadata URL:https://data.giss.nasa.gov/gistemp/
+* Data URL: https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
 * Data Type: CSV
 
  Global Temperature Data
 
 ### Datasource 2 : NOAA Global Land and Ocean Temperature Anomalies
 * Metadata URL: https://climate.nasa.gov/vital-signs/sea-level/?intent=121
-* Data URL: https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V51/GMSL_TPJAOS_5.1.txt?A-userid=nazrulroxy&Expires=1715863767&Signature=tvYLRM9mqgvzjo3zxHDxcvN-PKXBxHj06em9VIpNenh5Y1pukCgXwm2Ni4uJKSgqci5-MZ4sJpd3VqEE6Y7OaptbyVNmho9C1CLgxLMi-hVlx7A8u7AtiMnQ19lFg0qWShybr~8kDr8tNiDuL3r0kRgYdoP1CJVYTV4Y0OtEqfUgjr1z4NzjBFF5-dIkaUnlQ-7e1BH5oXoJ18PcbeWre5J4vhKMknk91hweZ~VXNMosBu3TRq8zMn-yJQo-qOYAnnUPZMQ5hH~~GM4Qr-sjtDwFLdt8NpwUWPAGFelcNXfhMTs9mWx1Lf3Mm81nUiLuOuL2ZmNKzWWTyrZzVbYa2Q__&Key-Pair-Id=K1M35K4VSQWD79
+* Data URL: https://datahub.io/core/sea-level-rise/r/epa_sea_level.csv
 * Data Type: CSV
-
-Global Mean Sea Level Time Series 
-
-### Datasource1: Regional Sea Level Rise Data
-* Metadata URL: https://tidesandcurrents.noaa.gov/
-* Data URL: https://tidesandcurrents.noaa.gov/sltrends/mslUSTrendsTable.html
-* Data Type: CSV
-
-Sea Level Trends
 
 
 ## Work Packages
 
-1. Thainking about project topic #1
-2. Searching for proper useable dataset #2
-3. Writing initial project plan #3
+1. Thainking about project topic
+2. Searching for proper useable dataset 
+3. Writing initial project plan 
+4. Data Collection and Preprocessing
+5. Exploratory Data Analysis
+6. Correlation Analysis
+7. Modeling and Prediction
+8. Risk Analysis and Visualization
+9. Prepare Report
 
 
