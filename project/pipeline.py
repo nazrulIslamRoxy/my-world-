@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import sqlite3
 
@@ -28,11 +29,15 @@ def save(data, path, file, table):
         conn = sqlite3.connect(path+file)
         data.to_sql(table, conn, if_exists='replace', index=False)
         conn.close()
+
+        return path+file
     
     except:
         conn = sqlite3.connect("../data/"+file)
         data.to_sql(table, conn, if_exists='replace', index=False)
         conn.close()
+
+        return path+file
 
 
 def main():
@@ -52,10 +57,12 @@ def main():
 
     finalData = dropNull(dataMerge(data1, data2, ["Year"], "T", "S"))
 
-    targetedPath = "./data/" 
+    targetedPath = os.getcwd()
+    targetedPath = os.path.join(targetedPath.split('project')[0], 'data\\')
+    targetedPath = targetedPath.replace("\\\\", "\\")
     fileName = "Data.sqlite"
     dbName = "TempSeaLevel"
-    save(finalData, targetedPath, fileName, dbName)
+    return save(finalData, targetedPath, fileName, dbName)
 
 if __name__ == "__main__":
     main()
