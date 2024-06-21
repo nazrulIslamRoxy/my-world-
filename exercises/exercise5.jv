@@ -5,7 +5,6 @@ pipeline dataPipeline {
         -> dataCSVInterpreter
         -> dataTableInterpreter
         -> dataLoader;     
-
     block dataExtractor oftype GTFSExtractor {
         url: "https://gtfs.rhoenenergie-bus.de/GTFS.zip";
     }
