@@ -1,6 +1,6 @@
 # Exercise Badges
 
-![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex1) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex2) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex3) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex4) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex5)
+![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex1) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex2) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex3) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex4) ![](https://byob.yarr.is/nazrulIslamRoxy/my-world-/score_ex4)
 
 # Methods of Advanced Data Engineering Template Project
 
