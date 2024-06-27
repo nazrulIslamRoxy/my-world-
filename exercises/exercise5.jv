@@ -60,4 +60,4 @@ pipeline dataPipeline {
         table: "stops";
         file: "./gtfs.sqlite";
     }
-}
+}  
