@@ -4,7 +4,8 @@ pipeline dataPipeline {
         -> dataTextFileInterpreter
         -> dataCSVInterpreter
         -> dataTableInterpreter
-        -> dataLoader;     
+        -> dataLoader;
+
     block dataExtractor oftype GTFSExtractor {
         url: "https://gtfs.rhoenenergie-bus.de/GTFS.zip";
     }
@@ -23,7 +24,7 @@ pipeline dataPipeline {
         
     }
 
-    constraint RC1 oftype RangeConstraint {
+    constraint RC_1 oftype RangeConstraint {
         lowerBound: 1645;
         lowerBoundInclusive: true;
         upperBound: 1646;
@@ -31,10 +32,10 @@ pipeline dataPipeline {
     }
 
     valuetype ZP oftype integer {
-        constraints: [RC1];
+        constraints: [RC_1];
     }
 
-    constraint RC2 oftype RangeConstraint {
+    constraint RC_2 oftype RangeConstraint {
         lowerBound: -92;
         lowerBoundInclusive: true;
         upperBound: 92;
@@ -42,7 +43,7 @@ pipeline dataPipeline {
     }
 
     valuetype GP oftype decimal {
-        constraints: [RC2];
+        constraints: [RC_2];
     }
 
     block dataTableInterpreter oftype TableInterpreter {
